@@ -184,7 +184,7 @@ func wygrany(board [][]string) bool {
 		fmt.Println("Gracz 2 wygral")
 	case board[0][2] == "O" && board[1][1] == "O" && board[2][1] == "O":
 		sukces = true
-		fmt.Println("Gracz 2 wygral")
+		fmt.Println("Gracz 2 wygral!")
 	}
 	return sukces
 	return sukces
